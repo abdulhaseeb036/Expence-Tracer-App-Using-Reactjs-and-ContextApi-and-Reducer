@@ -1,0 +1,33 @@
+.history-container {
+    width: 100%;
+    text-align: center;
+
+}
+/* .history-list {
+    border: red solid;
+} */
+.history-list > li {
+     width: 80%;
+     background-color: honeydew;
+     display: flex;
+     justify-content: space-between;
+     padding: 8px;
+     color: #000;
+     font-size: large;
+     font-weight: bold;
+     margin-top: 10px;
+     border-radius: 5px;
+     box-shadow: 0px 0px 10px #ABAAAA;
+
+}
+
+.history-topdivider {
+    margin-top: 30px;
+}
+
+.history-heading-divider {
+    width: 60px;
+    color: #000;
+    height: 2px;
+    background-color: #000;
+}
