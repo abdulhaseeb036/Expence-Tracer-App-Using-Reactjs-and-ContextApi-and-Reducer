@@ -18,8 +18,15 @@
      margin-top: 10px;
      border-radius: 5px;
      box-shadow: 0px 0px 10px #ABAAAA;
+     overflow-x: scroll;
 
 }
+.history-list > li::-webkit-scrollbar {
+    width: 1px; 
+    height: 5px;  
+}
+
+
 
 .history-topdivider {
     margin-top: 30px;
@@ -31,3 +38,29 @@
     height: 2px;
     background-color: #000;
 }
+.minus {
+    border-right: red 5px solid;
+}
+
+.plus {
+    border-right: green 5px solid;
+
+}
+
+.del-btn {
+    color: red;
+    display:none;
+
+}
+
+.history-list > li:hover .del-btn {
+    display: block;
+    color: red;
+    margin-left: -15px;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+
