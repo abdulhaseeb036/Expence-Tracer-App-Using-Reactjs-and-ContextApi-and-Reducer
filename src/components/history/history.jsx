@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import '../history/history.css';
 import {Globalcontext} from '../../contextapi/contextapi'
-import firebase from '../../contextapi/firebase'
-import 'firebase/database'
+
 
 function History() {
     // let totaldata = [];
